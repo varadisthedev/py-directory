@@ -1,0 +1,12 @@
+{
+    "name": "varad",
+    "age": 19,
+    "hobby": "gym",
+    "crush": 0,
+    "is_student": true,
+    "skills": [
+        "DSA",
+        "js",
+        "Python"
+    ]
+}

@@ -1,0 +1,8 @@
+serialization: data to json 
+de-serialization : json to usable python data
+
+keys 1, 2, and 3 are numbers. Once you use .dumps(), the dictionary keys become strings in the JSON-formatted string.
+>>> numbers_present = {1: True, 2: True, 3: False}
+>>> json.dumps(numbers_present)
+'{"1": true, "2": true, "3": false}'
+
